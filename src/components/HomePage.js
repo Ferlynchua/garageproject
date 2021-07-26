@@ -167,7 +167,7 @@ export const HomePage = () => {
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
                 <div className="text-pink-200 text-8xl pt-8 pb-10 border -2 border-dashed border-white bg-indigo-300" >Hello Kitty
                     <div class="border-0 border-solid float-left">
-                        <img src="https://gateway.pinata.cloud/ipfs/QmQxxBXFHKZ4kSopFtM37Wdb37uxDEgo7jfWo6bsN9Wbw2/icons/hearts.gif" />
+                        <img src="https://gateway.pinata.cloud/ipfs/QmQxxBXFHKZ4kSopFtM37Wdb37uxDEgo7jfWo6bsN9Wbw2/icons/hearts.gif" alt=""/>
                     </div>
                 </div>
 
