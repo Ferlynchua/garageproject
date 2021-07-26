@@ -24,17 +24,18 @@ const formatIpfsUrl = (url) => {
     console.log("he last digit : " + lastdigit);
 
     var imagename = '';
+    var url1 = '';
 
     // check if the numbers lengh equal to 2 then 
     if (result.length === 2) {
         // get the url path only before the number 
-        var url1 = url.substring(0, url.length - 2);
+        url1 = url.substring(0, url.length - 2);
         console.log("url without number : " + url1);
         imagename = url1 + lastdigit;
         console.log("url with number : " + imagename);
     } else if (result.length === 3) {
         // get the url path only before the number 
-        var url1 = url.substring(0, url.length - 3);
+        url1 = url.substring(0, url.length - 3);
         console.log("url without number : " + url1);
         imagename = url1 + lastdigit;
         console.log("url with number : " + imagename);
